@@ -1,0 +1,76 @@
+configure_dotfiles: yes
+dotfiles_repo_accept_hostkey: yes
+dotfiles_repo_local_destination: ~/.ansible-downloads/dotfiles
+dotfiles_repo: https://github.com/vigasin/dotfiles.git
+
+dotfiles_files:
+  - .tmux.conf
+  - .vimrc
+  - .gitconfig
+  - .osx
+
+debian_packages:
+  - tmux
+  - zsh
+  - ssh
+  - axel
+  - htop
+  - jq
+  - ncdu
+  - nmap
+  - parallel
+  - pv
+  - sqlite3
+  - silversearcher-ag
+  - tree
+
+homebrew_installed_packages:
+  - awscli
+  - awslogs
+  - axel
+  - cfssl
+  - cmake
+  - dos2unix
+  - emacs
+  - fabric
+  - ffmpeg
+  - go
+  - htop
+  - httpie
+  - hub
+  - iftop
+  - imagemagick
+  - iperf3
+  - jq
+  - kops
+  - kubernetes-cli
+  - mercurial
+  - mobile-shell
+  - mosh
+  - mp3splt
+  - mysql
+  - ncdu
+  - ninja
+  - nmap
+  - node
+  - parallel
+  - pv
+  - pyenv
+  - python3
+  - rbenv
+  - reattach-to-user-namespace
+  - rig
+  - ruby-build
+  - shyaml
+  - sqlite
+  - ssh-copy-id
+  - the_silver_searcher
+  - tmux
+  - tree
+  - unrar
+  - upx
+  - watch
+  - wget
+  - wireshark
+  - wrk
+  - xmlstarlet

@@ -1,0 +1,11 @@
+---
+- name: "Include OS-Specific tasks (Darwin)"
+  import_tasks: tasks-darwin.yml
+  when: ansible_os_family == "Darwin"
+
+- name: "Include OS-Specific tasks (Debian)"
+  import_tasks: tasks-debian.yml
+  when: ansible_os_family == "Debian"
+
+- name: "Silence parallel"
+  shell: "echo will cite | parallel --bibtex"

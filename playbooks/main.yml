@@ -1,0 +1,7 @@
+---
+- name: Environment Setup
+  hosts: all
+  roles:
+    - common
+    - role: geerlingguy.dotfiles
+      when: configure_dotfiles
