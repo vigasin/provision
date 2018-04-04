@@ -63,7 +63,10 @@ homebrew_installed_packages:
   - ruby-build
   - shyaml
   - sqlite
+  - shellcheck
   - ssh-copy-id
+  - terraform
+  - terragrunt
   - the_silver_searcher
   - tmux
   - tree
@@ -74,3 +77,4 @@ homebrew_installed_packages:
   - wireshark
   - wrk
   - xmlstarlet
+#  brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package quicklookase qlvideo
